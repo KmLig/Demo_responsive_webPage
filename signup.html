@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title> 
+    <style>
+        body{
+            background:linear-gradient(45deg, #0080ff, #ffe6e6) no-repeat ;     
+            height: 100vh;     
+        }
+       
+    </style>  
+</head>
+<body>
+    <h1>Please enter your name and password to sign up:</h1>
+    <form action="/action_page.php" method="post" target="framename" enctype="">
+        <div><label for="yName">Your Name:</label></div>
+        <input type="text" name="yourName" id=""><br><br>  
+        <div><label for="">Your Password:</label></div>
+        <input type="password" name="yPassword" id="" required><br>
+        <br>
+        <div class="radio">
+        <input type="radio" id="male" name="sex" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="Female">
+        <label for="female">Female</label>
+        </div>
+        <br>
+        <input type="submit">        
+    </form>    
+</body>
+</html>
